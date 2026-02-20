@@ -1,0 +1,239 @@
+categories:
+
+  - name: Foundational Theory
+    subcategories:
+
+      - name: Embedding Theorems
+        papers:
+          - title: "Detecting strange attractors in turbulence"
+            authors: "Takens, F."
+            year: 1981
+            venue: "Lecture Notes in Mathematics"
+            doi: "10.1007/BFb0091924"
+            tags: [embedding, theory, attractor, foundational]
+            note: "The foundational theorem underpinning all of EDM"
+
+          - title: "Embedology"
+            authors: "Sauer, T., Yorke, J. A., & Casdagli, M."
+            year: 1991
+            venue: "Journal of Statistical Physics"
+            doi: "10.1007/BF01053745"
+            tags: [embedding, theory, generic]
+
+          - title: "Generalized theorems for nonlinear state space reconstruction"
+            authors: "Deyle, E. R., & Sugihara, G."
+            year: 2011
+            venue: "PLoS ONE"
+            doi: "10.1371/journal.pone.0018295"
+            tags: [embedding, theory, multivariate, partial-observation]
+
+      - name: Chaos and Nonlinear Dynamics
+        papers:
+          - title: "Deterministic nonperiodic flow"
+            authors: "Lorenz, E. N."
+            year: 1963
+            venue: "Journal of Atmospheric Sciences"
+            doi: "10.1175/1520-0469(1963)020<0130:DNF>2.0.CO;2"
+            tags: [chaos, foundational, attractor]
+
+          - title: "Simple mathematical models with very complicated dynamics"
+            authors: "May, R. M."
+            year: 1976
+            venue: "Nature"
+            doi: "10.1038/261459a0"
+            tags: [chaos, logistic-map, foundational]
+
+  - name: Core Methods
+    subcategories:
+
+      - name: Simplex Projection
+        papers:
+          - title: "Nonlinear forecasting as a way of distinguishing chaos from measurement error in time series"
+            authors: "Sugihara, G., & May, R. M."
+            year: 1990
+            venue: "Nature"
+            doi: "10.1038/344734a0"
+            tags: [simplex, forecasting, seminal, chaos]
+            note: "Seminal paper introducing simplex projection"
+
+          - title: "Nonlinear forecasting for the classification of natural time series"
+            authors: "Sugihara, G."
+            year: 1994
+            venue: "Philosophical Transactions of the Royal Society A"
+            doi: "10.1098/rsta.1994.0106"
+            tags: [simplex, s-map, classification]
+
+      - name: S-map
+        papers:
+          - title: "Nonlinear forecasting for the classification of natural time series"
+            authors: "Sugihara, G."
+            year: 1994
+            venue: "Philosophical Transactions of the Royal Society A"
+            doi: "10.1098/rsta.1994.0106"
+            tags: [s-map, forecasting, locally-weighted]
+            note: "Introduces S-map (Sequential locally weighted global linear maps)"
+
+          - title: "Tracking and forecasting ecosystem interactions in real time"
+            authors: "Deyle, E. R., et al."
+            year: 2016
+            venue: "Proceedings of the Royal Society B"
+            doi: "10.1098/rspb.2015.2258"
+            tags: [s-map, ecosystem, real-time, interaction-network]
+
+      - name: Convergent Cross Mapping
+        papers:
+          - title: "Detecting causality in complex ecosystems"
+            authors: "Sugihara, G., May, R., Ye, H., Hsieh, C. H., Deyle, E., Fogarty, M., & Munch, S."
+            year: 2012
+            venue: "Science"
+            doi: "10.1126/science.1227079"
+            tags: [CCM, causality, seminal, ecosystem]
+            note: "Landmark paper introducing CCM"
+
+          - title: "Spatial convergent cross mapping to detect causal relationships from short time series"
+            authors: "Clark, A. T., et al."
+            year: 2015
+            venue: "Ecology"
+            doi: "10.1890/14-1479.1"
+            tags: [CCM, spatial, short-time-series]
+
+          - title: "Distinguishing time-delayed causal interactions using convergent cross mapping"
+            authors: "Ye, H., Deyle, E. R., Gilarranz, L. J., & Sugihara, G."
+            year: 2015
+            venue: "Scientific Reports"
+            doi: "10.1038/srep14750"
+            tags: [CCM, causality, time-delay]
+
+      - name: Multiview Embedding
+        papers:
+          - title: "Information leverage in interconnected ecosystems: Overcoming the curse of dimensionality"
+            authors: "Ye, H., & Sugihara, G."
+            year: 2016
+            venue: "Science"
+            doi: "10.1126/science.aag0863"
+            tags: [MVE, multiview, dimensionality, forecasting]
+            note: "Introduces Multiview Embedding (MVE)"
+
+      - name: Extensions and Variants
+        papers:
+          - title: "Regularized S-maps for inference of population dynamics"
+            authors: "Cenci, S., Sugihara, G., & Saavedra, S."
+            year: 2019
+            venue: "Methods in Ecology and Evolution"
+            doi: "10.1111/2041-210X.13150"
+            tags: [s-map, regularization, population-dynamics]
+
+          - title: "Fluctuating interaction network and time-varying stability of a natural fish community"
+            authors: "Ushio, M., et al."
+            year: 2018
+            venue: "Nature"
+            doi: "10.1038/nature25504"
+            tags: [s-map, interaction-network, fish, time-varying]
+
+  - name: Causality and Inference
+    papers:
+      - title: "Causal feedbacks in climate change"
+        authors: "van Nes, E. H., et al."
+        year: 2015
+        venue: "Nature Climate Change"
+        doi: "10.1038/nclimate2568"
+        tags: [CCM, climate, causality, feedback]
+
+      - title: "Limits to causal inference with state-space reconstruction for infectious disease"
+        authors: "Cobey, S., & Baskerville, E. B."
+        year: 2016
+        venue: "PLoS ONE"
+        doi: "10.1371/journal.pone.0169050"
+        tags: [CCM, causality, epidemiology, critique]
+        note: "Critical perspective on CCM limitations"
+
+      - title: "Topological causality in dynamical systems"
+        authors: "Harnack, D., et al."
+        year: 2017
+        venue: "Physical Review Letters"
+        doi: "10.1103/PhysRevLett.119.098301"
+        tags: [causality, topology, dynamical-systems]
+
+      - title: "Inferring causation from time series in Earth system sciences"
+        authors: "Runge, J., et al."
+        year: 2019
+        venue: "Nature Communications"
+        doi: "10.1038/s41467-019-10105-3"
+        tags: [causality, CCM, Earth-system, survey]
+
+  - name: Applications
+    subcategories:
+
+      - name: Ecology and Fisheries
+        papers:
+          - title: "Distinguishing random environmental fluctuations from ecological catastrophes for the North Pacific ecosystem"
+            authors: "Hsieh, C. H., Glaser, S. M., Lucas, A. J., & Sugihara, G."
+            year: 2005
+            venue: "Nature"
+            doi: "10.1038/nature03553"
+            tags: [ecology, fisheries, regime-shift]
+
+          - title: "Predicting climate effects on Pacific sardine"
+            authors: "Deyle, E. R., et al."
+            year: 2013
+            venue: "PNAS"
+            doi: "10.1073/pnas.1215506110"
+            tags: [fisheries, climate, forecasting, sardine]
+
+          - title: "Equation-free mechanistic ecosystem forecasting using empirical dynamic modeling"
+            authors: "Ye, H., et al."
+            year: 2015
+            venue: "PNAS"
+            doi: "10.1073/pnas.1417063112"
+            tags: [ecosystem, forecasting, equation-free]
+
+          - title: "Nonlinear dynamics and noise in fisheries recruitment: A global meta-analysis"
+            authors: "Munch, S. B., Rogers, T. L., & Sugihara, G."
+            year: 2017
+            venue: "Fish and Fisheries"
+            doi: "10.1111/faf.12220"
+            tags: [fisheries, recruitment, nonlinear, meta-analysis]
+
+      - name: Climate Science
+        papers:
+          - title: "Dynamical evidence for causality between galactic cosmic rays and interannual variation in global temperature"
+            authors: "Tsonis, A. A., Deyle, E. R., et al."
+            year: 2015
+            venue: "PNAS"
+            doi: "10.1073/pnas.1420291112"
+            tags: [climate, causality, cosmic-rays]
+
+      - name: Neuroscience
+        papers:
+          - title: "Locally embedded presages of global network bursts"
+            authors: "Tajima, S., et al."
+            year: 2015
+            venue: "PNAS"
+            doi: "10.1073/pnas.1418908112"
+            tags: [neuroscience, network, burst, prediction]
+
+      - name: Epidemiology
+        papers:
+          - title: "Limits to causal inference with state-space reconstruction for infectious disease"
+            authors: "Cobey, S., & Baskerville, E. B."
+            year: 2016
+            venue: "PLoS ONE"
+            doi: "10.1371/journal.pone.0169050"
+            tags: [epidemiology, CCM, limitations]
+
+  - name: Reviews and Tutorials
+    papers:
+      - title: "Empirical dynamic modeling for beginners"
+        authors: "Chang, C.-W., Ushio, M., & Hsieh, C.-H."
+        year: 2017
+        venue: "Ecological Research"
+        doi: "10.1007/s11284-017-1469-9"
+        tags: [tutorial, review, beginner]
+        note: "Highly recommended starting point"
+
+      - title: "Frequently asked questions about nonlinear dynamics and empirical dynamic modelling"
+        authors: "Munch, S. B., Brias, A., Sugihara, G., & Rogers, T. L."
+        year: 2020
+        venue: "ICES Journal of Marine Science"
+        doi: "10.1093/icesjms/fsz209"
+        tags: [review, FAQ, nonlinear-dynamics]
