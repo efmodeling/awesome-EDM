@@ -35,7 +35,6 @@ recover attractor geometry without requiring an explicit equation-based model.
 - [Reviews and Tutorials](#reviews-and-tutorials)
 - [Datasets](#datasets)
 - [Events and Communities](#events-and-communities)
-- [Mind Map](#mind-map)
 
 ---
 
@@ -165,19 +164,6 @@ recover attractor geometry without requiring an explicit equation-based model.
 - [Sugihara Lab — Scripps Institution of Oceanography, UCSD](https://deepeco.ucsd.edu/)
 - [ICES Working Groups on stock assessment and ecosystem modeling](https://www.ices.dk/)
 - [Complex Systems Society](https://cssociety.org/)
-
----
-
-## Mind Map
-
-Generate a visual mind map of the EDM paper landscape:
-
-```bash
-pip install matplotlib networkx pyyaml
-python generate_mindmap.py
-```
-
-See [`generate_mindmap.py`](generate_mindmap.py) and [`papers.yaml`](papers.yaml) for details.
 
 ---
 
