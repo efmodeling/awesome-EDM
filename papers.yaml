@@ -130,6 +130,16 @@ categories:
             doi: "10.1038/nature25504"
             tags: [s-map, interaction-network, fish, time-varying]
 
+          - title: "LETS Forecast: Learning Embedology for Time Series Forecasting"
+            authors: "Majeedi, A., Gajjala, V. R., Namburi GNVV, S. S. S., Elkordi, N. M., & Li, Y."
+            year: 2025
+            venue: "ICML 2025"
+            doi: "10.48550/arXiv.2506.06454"
+            arxiv: "2506.06454"
+            code: "https://abrarmajeedi.github.io/deep_edm"
+            tags: [deep-learning, EDM, forecasting, transformer, time-delayed-embeddings, noise-robust]
+            note: "Introduces DeepEDM: integrates EDM with deep neural networks via learned latent embeddings and kernel regression (softmax attention); noise-robust and SOTA on standard benchmarks"
+
   - name: Causality and Inference
     papers:
       - title: "Causal feedbacks in climate change"
