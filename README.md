@@ -81,6 +81,7 @@ recover attractor geometry without requiring an explicit equation-based model.
 - Cenci, S., Sugihara, G., & Saavedra, S. (2019). Regularized S-maps for inference of population dynamics. *Methods in Ecology and Evolution*, 10(4), 650–660. [DOI](https://doi.org/10.1111/2041-210X.13150)
 - Ushio, M., et al. (2018). Fluctuating interaction network and time-varying stability of a natural fish community. *Nature*, 554, 360–363. [DOI](https://doi.org/10.1038/nature25504) — *Extended S-map for interaction network inference.*
 - Chang, C.-W., et al. (2021). Varying-coefficient stochastic differential equations with applications in ecology. *Journal of Agricultural, Biological and Environmental Statistics*, 26, 446–463. [DOI](https://doi.org/10.1007/s13253-021-00450-6)
+- Majeedi, A., Gajjala, V. R., Namburi GNVV, S. S. S., Elkordi, N. M., & Li, Y. (2025). LETS Forecast: Learning Embedology for Time Series Forecasting. *ICML 2025*. [arXiv](https://arxiv.org/abs/2506.06454) | [Code](https://abrarmajeedi.github.io/deep_edm) — *Introduces DeepEDM, integrating time-delayed embeddings and kernel regression with deep neural networks; noise-robust and state-of-the-art on standard forecasting benchmarks.*
 
 ---
 
